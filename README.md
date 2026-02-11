@@ -26,6 +26,11 @@ This project uses the **German Credit (credit-g)** dataset from OpenML.
 ## Results
 The notebook reports model metrics (accuracy, precision, recall, ROC-AUC) and includes a SHAP summary plot for feature importance.
 
+## Notes & observations
+- The dataset is moderately imbalanced, so I used `class_weight="balanced"` to reduce bias toward the majority class.
+- I picked a RandomForest because it handles mixed feature types well and performs decently out of the box.
+- SHAP helps interpret which features contribute most to predicted default risk.
+
 ## Resume-ready summary
 Built a loan default prediction model using Python and scikit-learn; evaluated with accuracy/precision/recall/ROC-AUC and added SHAP explainability to identify key risk drivers.
 
