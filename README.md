@@ -26,5 +26,13 @@ This project uses the **German Credit (credit-g)** dataset from OpenML.
 ## Results
 The notebook reports model metrics (accuracy, precision, recall, ROC-AUC) and includes a SHAP summary plot for feature importance.
 
+## Resume-ready summary
+Built a loan default prediction model using Python and scikit-learn; evaluated with accuracy/precision/recall/ROC-AUC and added SHAP explainability to identify key risk drivers.
+
+## Project highlights
+- End-to-end ML workflow with preprocessing, modeling, and evaluation
+- Explainable model results with SHAP feature importance
+- Clean, reproducible notebook for easy review
+
 ## License
 MIT
